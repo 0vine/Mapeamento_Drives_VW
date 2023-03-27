@@ -60,7 +60,7 @@ GUICtrlSetState(-1, $GUI_HIDE)
 $hRgn = _WinAPI_CreateRoundRectRgn(0, 0, $g_iWidth, $g_iHeight, 20, 20)
 _WinAPI_SetWindowRgn($hWnd_Main, $hRgn)
 
-$idTextMap = GUICtrlCreateLabel("Mapear Drives de Rede", 40, 60)
+$idTextMap = GUICtrlCreateLabel("Mapeamento Drives", 50, 60)
 
 $idImage_Logo_Volkswagen = GUICtrlCreatePic("", 95, 16, 50, 50)
 _GUICtrlSetGIF(-1, _Extract_Logo_Volkswagen(True))
